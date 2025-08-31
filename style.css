@@ -1,0 +1,596 @@
+@font-face {
+    font-family: 'nunito';
+    src: url(fuentes/Nunito_Sans/NunitoSans-VariableFont_YTLC\,opsz\,wdth\,wght.ttf) format('woff');
+}
+
+
+
+
+
+body{
+    background-color: #282828 !important;
+    font-family: 'nunito';
+    font-weight: 400;
+      font-size: 1rem;
+
+}
+
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+          transform: translateY(20px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+
+
+}
+
+.navbar{
+    background-color: #96473F;
+    color: white;
+    vertical-align: middle;
+    box-shadow: 0 1px 12px rgba(0, 0, 0, 8);
+}
+
+.nav-link{
+    padding: right 500px; ;
+}
+
+/* Index */
+.Bienvenido{
+    padding-top: 32px;
+    padding-bottom: 32px;
+    color: white;
+
+    border-radius: 30px;
+    animation: fadeIn 1.5s ease-in-out;
+
+}
+
+.Bienvenido_b{
+    padding: 30px;
+    border-radius: 30px;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+.Bienvenido_t{
+    padding: 30px;
+    padding-bottom: 30px;
+    border-radius: 30px;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+.Bienvenido_m{
+    padding: 30px;
+    margin-top: 30px;
+
+    border-radius: 30px;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+.hover-servicios {
+    background-color: #28545C;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    padding: 20px;
+    border-radius: 12px;
+  }
+  
+  .hover-servicios:hover {
+    background-color: #34767F;
+    transform: scale(1.03);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  }
+  
+
+
+
+.Soy{
+    padding: 10px;
+    border-radius: 30px;
+    color: white;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+.Soy_r{
+    padding: 10px;
+    border-radius: 30px;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+.Soy_d{
+    padding: 10px;
+    border-radius: 30px;
+    text-align: end;
+    animation: fadeIn 1.5s ease-in-out;
+
+}
+
+.Soy_t{
+    padding: 10px;
+    border-radius: 30px;
+    text-align: end;
+    margin-top: 50px;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+.Soy_i{
+    border-radius: 30px;
+    border: solid 10px #96473F;
+    background-color: #96473F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: fadeIn 1.5s ease-in-out;
+
+}
+
+.Cont{
+    color: white;
+    padding: 30px;
+    border-radius: 30px;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+.Cont_r{
+    padding: 30px;
+    border-radius: 30px;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+.Cont_m{
+    padding: 10px;
+    border-radius: 30px;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+.Cont_ma{
+    padding: 20px;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    margin-right: 30px;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+.Cont_e{
+    padding: 70px;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+.Cont_en{
+    padding: 20px;
+    border-radius: 30px;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+.Cont_re{
+    align-items: center;
+    border-radius: 30px;
+    animation: fadeIn 1.5s ease-in-out;
+
+}
+
+.Cont_rer{
+    padding: 5px;
+    border-radius: 30px;
+    margin-left: 5px;
+    align-items: center;
+    animation: fadeIn 1.5s ease-in-out;
+
+}
+
+.Cont_ins{
+    padding: 5px;
+    border-radius: 30px;
+    background-color: #96473F;
+    margin: 2px;
+    animation: fadeIn 1.5s ease-in-out;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+
+}
+
+.Cont_ins:hover {
+    transform: scale(1.05);
+    
+  }
+
+.Cont_lin{
+    padding: 5px;
+    border-radius: 30px;
+    background-color: #96473F;
+    margin: 2px;
+    animation: fadeIn 1.5s ease-in-out;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.Cont_lin:hover {
+    transform: scale(1.05);
+    
+  }
+
+
+.Cont_be{
+    padding: 5px;
+    border-radius: 30px;
+    background-color: #96473F;
+    margin: 2px;
+    animation: fadeIn 1.5s ease-in-out;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+.Cont_be:hover {
+    transform: scale(1.05);
+  }
+
+.Cont_mail{
+    padding: 5px;
+    border-radius: 30px;
+    background-color: #96473F;
+    margin: 2px;
+    animation: fadeIn 1.5s ease-in-out;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+.Cont_mail:hover {
+    transform: scale(1.05);
+  }
+
+
+.carrusel{
+    background: linear-gradient(to top, #28545C,#282828 );
+    padding: 30px;
+    border: solid 10px #28545C;
+    color: white;
+    animation: fadeIn 1.5s ease-in-out;
+}
+/* Index */
+
+
+/* Acerca */
+
+.Acerca{
+    padding: 20px;
+    margin-top: 40px;
+    color: white;
+    background-color: rgba(57, 57, 57, 10);
+    border-radius: 30px;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+.Acerca_r{
+    padding: 10px;
+    border-radius: 30px;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+.Acerca_a{
+    padding: 10px;
+    border-radius: 30px;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+.Acerca_s{
+
+    border-radius: 30px;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+
+.Prog{
+    padding: 20px;
+    margin-top: 40px;
+    color: white;
+
+    border-radius: 30px;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+.Prog_r{
+    padding: 10px;
+    border-radius: 30px;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+.Prog_u{
+    padding: 10px;
+    border-radius: 30px;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(57, 57, 57, 10);
+    margin-right: 143px;
+    animation: fadeIn 1.5s ease-in-out;
+}
+.Prog_u_t{
+    padding: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+.Prog_f{
+    padding: 10px;
+    border-radius: 30px;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(57, 57, 57, 10);
+    margin-right: 143px;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+.Prog_b{
+    padding: 10px;
+    border-radius: 30px;
+    text-align: center;
+    background-color: rgba(57, 57, 57, 10);
+    margin-right: 143px;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+.Prog_fr{
+    padding: 10px;
+    border-radius: 30px;
+    text-align: center;
+    background-color: rgba(57, 57, 57, 10);
+    animation: fadeIn 1.5s ease-in-out;
+
+}
+/* Acerca */
+
+/* Musica */
+.musica{
+    border-radius: 30px;
+    color: white;
+    padding: 30px;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+/* Musica */
+
+
+/* Servicios */
+.proy{
+    color: white;
+    background-color: rgba(167, 167, 167, 0.1);
+    border-radius: 30px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+.proy_i{
+    background-color: rgba(58, 58, 58, 100);
+    border-radius: 30px;
+    padding: 10px;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+.Tienes{
+    color: white;
+    background-color: rgba(167, 167, 167, 0.1);
+    border-radius: 30px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+.Tienes_c{
+    color: white;
+    background-color: #EB2615;
+    border-radius: 30px;
+    padding: 50px;
+    text-align: center;
+    animation: fadeIn 1.5s ease-in-out;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.Tienes_c:hover {
+    transform: scale(1.05);
+    
+  }
+/* Servicios */
+
+
+
+/* Contacto */
+.cont{
+    padding: 30px;
+    color: white;
+    border-radius: 30px;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+.cont_c{
+    color: white;
+    border-radius: 30px;
+    padding: 10px;
+    margin-bottom: 10px;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+.cont_t{
+    color: white;
+    border-radius: 30px;
+    padding: 10px;
+    margin-bottom: 10px;
+    animation: fadeIn 1.5s ease-in-out;
+}
+.Cont_re{
+
+    margin-left: 40px;
+    padding-bottom: 10px;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+
+.Cont_ins{
+    padding: 10px;
+    margin-left: 18px;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+.Cont_lin{
+    padding: 10px;
+    margin-left: 18px;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+.Cont_be{
+    padding: 10px;
+    margin-left: 18px;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+.Cont_mail{
+    padding: 10px;
+    margin-left: 18px;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+.Mensaje{
+    padding: 30px;
+    color: white;
+    border-radius: 30px;
+    animation: fadeIn 1.5s ease-in-out;
+
+}
+
+.Mensaje_n{
+    padding: 30px;
+    background-color: rgba(217, 217, 217, 0.2);
+    border-radius: 30px;
+    margin-bottom: 50px;
+    animation: fadeIn 1.5s ease-in-out;
+
+
+}
+
+.Mensaje_c{
+    padding: 30px;
+    background-color: rgba(217, 217, 217, 0.2);
+    border-radius: 30px;
+    animation: fadeIn 1.5s ease-in-out;
+
+
+}
+
+.Mensaje_r{
+    background-color: rgba(167, 167, 167, 0.1);
+    border-radius: 30px;
+    padding: 30px;
+    animation: fadeIn 1.5s ease-in-out;
+
+}
+
+.Mensaje2_m{
+    padding: 20px;
+    color: white;
+    border-radius: 30px;
+    background-color: rgba(217, 217, 217, 0.2);
+    margin-bottom: 10px;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+.Mensaje2_e{
+    background-color: #96473F;
+    text-align: end;
+    border-radius: 30px;
+    padding: 20px;
+    margin-top: 10px;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+/* Contacto */
+
+/* Animacion imagenes musica */
+.imagen-hover-kid {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .imagen-hover-kid:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  }
+
+  .imagen-hover-billie {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .imagen-hover-billie:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  }
+
+
+  .imagen-hover-bunkers {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .imagen-hover-bunkers:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  }
+/* Animacion imagenes musica */
+
+/* Animacion imagenes servicios */
+.hover-img-servicios {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .hover-img-servicios:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+  }
+
+  .hover-img-redes{
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    cursor: pointer;
+  }
+
+  .hover-img-redes:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+  }
+
+  .hover-img-mas{
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    cursor: pointer;
+  }
+
+  .hover-img-mas:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+  }
+
+/* Animacion imagenes servicios */
+
